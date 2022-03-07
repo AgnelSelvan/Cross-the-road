@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9226FEEE27D6312D00909629 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9226FEEB27D6312C00909629 /* Utils.swift */; };
+		9226FEEF27D6312D00909629 /* 8-BIT WONDER.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 9226FEEC27D6312D00909629 /* 8-BIT WONDER.TTF */; };
+		9226FEF327D6315500909629 /* GameHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9226FEF027D6315500909629 /* GameHUD.swift */; };
+		9226FEF427D6315500909629 /* CollisionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9226FEF127D6315500909629 /* CollisionNode.swift */; };
+		9226FEF527D6315500909629 /* LaneNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9226FEF227D6315500909629 /* LaneNode.swift */; };
+		9226FEF727D631D200909629 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9226FEF627D631D200909629 /* GameViewController.swift */; };
+		9286CE9127D634EE00579786 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 9286CE9027D634ED00579786 /* art.scnassets */; };
 		92F0D81C27915C970011ACFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F0D81B27915C970011ACFD /* AppDelegate.swift */; };
-		92F0D81E27915C970011ACFD /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 92F0D81D27915C970011ACFD /* art.scnassets */; };
-		92F0D82027915C970011ACFD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F0D81F27915C970011ACFD /* GameViewController.swift */; };
 		92F0D82327915C970011ACFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92F0D82127915C970011ACFD /* Main.storyboard */; };
 		92F0D82527915CA80011ACFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92F0D82427915CA80011ACFD /* Assets.xcassets */; };
 		92F0D82827915CA80011ACFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92F0D82627915CA80011ACFD /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9226FEEB27D6312C00909629 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = "../../../../../../../Volumes/NO NAME/Scebekit/Attached Files/6. 3D SceneKit/Crazy Road 4/Crazy Road/Utils.swift"; sourceTree = "<group>"; };
+		9226FEEC27D6312D00909629 /* 8-BIT WONDER.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "8-BIT WONDER.TTF"; sourceTree = "<group>"; };
+		9226FEF027D6315500909629 /* GameHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameHUD.swift; sourceTree = "<group>"; };
+		9226FEF127D6315500909629 /* CollisionNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollisionNode.swift; sourceTree = "<group>"; };
+		9226FEF227D6315500909629 /* LaneNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LaneNode.swift; path = "../../../../../../../Volumes/NO NAME/Scebekit/Attached Files/6. 3D SceneKit/Crazy Road 4/Crazy Road/LaneNode.swift"; sourceTree = "<group>"; };
+		9226FEF627D631D200909629 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		9286CE9027D634ED00579786 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		92F0D81827915C970011ACFD /* Cross The Road.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cross The Road.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92F0D81B27915C970011ACFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		92F0D81D27915C970011ACFD /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		92F0D81F27915C970011ACFD /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		92F0D82227915C970011ACFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92F0D82427915CA80011ACFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92F0D82727915CA80011ACFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,11 +66,16 @@
 			isa = PBXGroup;
 			children = (
 				92F0D81B27915C970011ACFD /* AppDelegate.swift */,
-				92F0D81D27915C970011ACFD /* art.scnassets */,
-				92F0D81F27915C970011ACFD /* GameViewController.swift */,
+				9226FEEC27D6312D00909629 /* 8-BIT WONDER.TTF */,
+				9226FEEB27D6312C00909629 /* Utils.swift */,
 				92F0D82127915C970011ACFD /* Main.storyboard */,
 				92F0D82427915CA80011ACFD /* Assets.xcassets */,
 				92F0D82627915CA80011ACFD /* LaunchScreen.storyboard */,
+				9226FEF127D6315500909629 /* CollisionNode.swift */,
+				9226FEF027D6315500909629 /* GameHUD.swift */,
+				9226FEF227D6315500909629 /* LaneNode.swift */,
+				9226FEF627D631D200909629 /* GameViewController.swift */,
+				9286CE9027D634ED00579786 /* art.scnassets */,
 			);
 			path = "Cross The Road";
 			sourceTree = "<group>";
@@ -123,9 +138,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92F0D81E27915C970011ACFD /* art.scnassets in Resources */,
 				92F0D82827915CA80011ACFD /* LaunchScreen.storyboard in Resources */,
 				92F0D82527915CA80011ACFD /* Assets.xcassets in Resources */,
+				9286CE9127D634EE00579786 /* art.scnassets in Resources */,
+				9226FEEF27D6312D00909629 /* 8-BIT WONDER.TTF in Resources */,
 				92F0D82327915C970011ACFD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92F0D82027915C970011ACFD /* GameViewController.swift in Sources */,
+				9226FEF427D6315500909629 /* CollisionNode.swift in Sources */,
 				92F0D81C27915C970011ACFD /* AppDelegate.swift in Sources */,
+				9226FEEE27D6312D00909629 /* Utils.swift in Sources */,
+				9226FEF327D6315500909629 /* GameHUD.swift in Sources */,
+				9226FEF727D631D200909629 /* GameViewController.swift in Sources */,
+				9226FEF527D6315500909629 /* LaneNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +311,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,7 +340,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
